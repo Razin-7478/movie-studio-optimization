@@ -118,10 +118,7 @@ movie-studio-optimization/
 ## Author
 
 **Mohammad Razin Masud**  
-ID: 243014111  
 Course: Algorithm Lab (CSE 2202)  
-Section: 3  
-Semester: Fall 2025  
 University of Liberal Arts Bangladesh  
 
 Submitted to: Fatema Khan, Lecturer, Department of CSE
