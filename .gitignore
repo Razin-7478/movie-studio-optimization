@@ -1,0 +1,15 @@
+# Compiled binaries
+*.o
+*.exe
+movie_studio_optimizer
+a.out
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
