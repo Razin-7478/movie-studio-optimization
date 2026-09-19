@@ -38,14 +38,21 @@ A single C program that solves two classic optimization problems commonly faced 
 
 ### Prerequisites
 - Any standard C compiler (GCC recommended)
+- `make` (optional but recommended)
 
-### Compile
+### Using Makefile (Recommended)
+
 ```bash
-gcc movie_studio_optimizer.c -o movie_studio_optimizer
+make          # Compile
+make run      # Compile and run
+make clean    # Remove binary
+make help     # Show available targets
 ```
 
-### Run
+### Manual Compilation
+
 ```bash
+gcc -Wall -Wextra -std=c99 -O2 movie_studio_optimizer.c -o movie_studio_optimizer
 ./movie_studio_optimizer
 ```
 
@@ -100,8 +107,10 @@ Item 1  (Weight = 2, Value = 5)
 ```
 movie-studio-optimization/
 ├── movie_studio_optimizer.c   # Main source code
+├── Makefile                   # Build automation
 ├── README.md                  # This file
-└── LICENSE                    # MIT License
+├── LICENSE                    # MIT License
+└── .gitignore                 # Git ignore rules
 ```
 
 ---
@@ -109,7 +118,10 @@ movie-studio-optimization/
 ## Author
 
 **Mohammad Razin Masud**  
-Course: Algorithm Lab  
+ID: 243014111  
+Course: Algorithm Lab (CSE 2202)  
+Section: 3  
+Semester: Fall 2025  
 University of Liberal Arts Bangladesh  
 
 Submitted to: Fatema Khan, Lecturer, Department of CSE
